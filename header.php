@@ -27,7 +27,7 @@
 				<h2>Blog o prostym, ale pysznym jedzeniu</h2>
 			</div>
 			<nav>
-				<?php wp_nav_menu(); ?> 
+				<?php wp_nav_menu( array('menu' => 'glowne' )); ?>
 			</nav>
 			<div class="clear"></div>
 		</header>
