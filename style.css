@@ -201,10 +201,10 @@ article header img{
 	margin:0;
 	text-align: center;
 }
-.nazwaKategorii{
+.metaInformacje a{
 	text-transform: uppercase;
 }
-.nazwaKategorii:before{
+.metaInformacje a:before{
 	content: '//';
 	color:#cccccc;
 	margin-right: 10px;
