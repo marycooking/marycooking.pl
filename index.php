@@ -1,5 +1,4 @@
-<?php include header(); ?>
-
+<?php get_header(); ?>
 			<section id="listaArtykulow">
 				<article>
 					
@@ -146,4 +145,4 @@
 				</ul>
 			</aside>
 		
-<?php include footer(); ?>
+<?php get_footer(); ?>
