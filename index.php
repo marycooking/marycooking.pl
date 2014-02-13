@@ -41,9 +41,6 @@
 							<h1 class="tytul_artykulu"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 							
 						</header>
-						<?php
-				          echo getPostViews(get_the_ID());
-						?>
 						<?php the_content(); ?>
 				</article>
 				<?php endwhile; ?>
