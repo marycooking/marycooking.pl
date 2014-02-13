@@ -4,7 +4,13 @@
 				<?php while (have_posts()) : the_post(); ?>
 				<article>
 						<header>
-							<a href="#"><img src="obrazek1.jpg"></a>
+							<a href="<?php the_permalink(); ?>">
+								<?php 
+									if ( has_post_thumbnail() ) { 
+										the_post_thumbnail( 'duzy_waski_kwadrat' ); 
+									} 
+								?>
+							</a>
 							<div class="metaIkonki">
 								<div class="mataCzas metaIkonka">
 									<span>30</span> min
@@ -18,7 +24,7 @@
 							</div>
 							<div class="clear"></div>
 							<p class="metaInformacje">22 lutego 2014 <span class="nazwaKategorii">Mięso</span></p>
-							<h1 class="tytul_artykulu"><a href="#"><?php the_title(); ?></a></h1>
+							<h1 class="tytul_artykulu"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 							
 						</header>
 						<?php the_content(); ?>
