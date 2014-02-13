@@ -203,6 +203,9 @@ article header img{
 }
 .metaInformacje a{
 	text-transform: uppercase;
+	text-decoration: none;
+	color:#808080;
+	
 }
 .metaInformacje a:before{
 	content: '//';
