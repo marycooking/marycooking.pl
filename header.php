@@ -24,7 +24,7 @@
 	<div id="kontener">
 		<header>
 			<div id="logo">
-				<h1><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/marycooking.png"></a></h1>
+				<h1><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/marycooking.png" alt="marycooking"></a></h1>
 				<h2>Blog o prostym, ale pysznym jedzeniu</h2>
 			</div>
 			<nav>
