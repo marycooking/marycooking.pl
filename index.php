@@ -18,14 +18,10 @@
 							</div>
 							<div class="clear"></div>
 							<p class="metaInformacje">22 lutego 2014 <span class="nazwaKategorii">Mięso</span></p>
-							<h1 class="tytul_artykulu"><a href="#">Zupa z mięsem i zieleniną</a></h1>
+							<h1 class="tytul_artykulu"><a href="#"><?php the_title(); ?></a></h1>
 							
 						</header>
-						<p>Staropolska zupa przygotowywana przez młode panny dla swoich panów. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. <a href="#">Czytaj całość</a></p>
+						<?php the_content(); ?>
 				</article>
 				<?php endwhile; ?>
 				<div class="navigation">
