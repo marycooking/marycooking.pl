@@ -12,18 +12,24 @@
 								?>
 							</a>
 							<div class="metaIkonki">
-								<div class="mataCzas metaIkonka">
 									<?php $czas = get_post_custom_values('czas');
-									if($czas != null){
-										echo $czas[0];
-									} ?>
-								</div>
-								<div class="mataTrudnosc metaIkonka">
-									łatwe
-								</div>
-								<div class="mataKoszt metaIkonka">
-									<span>36</span> zł
-								</div>
+									if($czas != null){ ?>
+										<div class="mataCzas metaIkonka">
+											<?php echo $czas[0]; ?>
+										</div>
+									<?php } ?>
+									<?php $trudnosc = get_post_custom_values('trudnosc');
+									if($trudnosc != null){ ?>
+										<div class="mataTrudnosc metaIkonka">
+											<?php echo $trudnosc[0]; ?>
+										</div>
+									<?php } ?>
+									<?php $cena = get_post_custom_values('cena');
+									if($cena != null){ ?>
+										<div class="mataKoszt metaIkonka">
+											<?php echo $cena[0]; ?>
+										</div>
+									<?php } ?>
 							</div>
 							<div class="clear"></div>
 							<p class="metaInformacje"><?php the_time('j F Y') ?> <?php the_category(', ') ?></p>
