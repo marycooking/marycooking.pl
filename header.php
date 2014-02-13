@@ -16,12 +16,7 @@
 				<h2>Mam płytę indukcyjną to korzystam</h2>
 			</div>
 			<nav>
-				<ul>
-					<li><a href="#">Mięso</a></li>
-					<li><a href="#">Japonia</a></li>
-					<li><a href="#">Słodkości</a></li>
-					<li><a href="#">Warzywa</a></li>
-				</ul>
+				<?php wp_nav_menu(); ?> 
 			</nav>
 			<div class="clear"></div>
 		</header>
