@@ -1,0 +1,206 @@
+body{
+	font-family: 'Lato';
+	color:#808080;
+	background: #f2f2f2;
+}
+a{
+	color:#005ED9;
+}
+
+#kontener{
+	max-width:1200px;
+	margin:3% auto 0 auto;
+	padding:3%;
+	background:#fff;
+}
+#kontener>header{
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+h1,h2{
+	color:#333333;
+}
+p,li{
+	line-height: 1.5em;
+}
+nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#929292;
+	padding: 5px 15px;
+}
+nav ul li a:before{
+	content: '//';
+	color:#cccccc;
+	margin-right: 15px;
+	margin-left: -15px;
+}
+nav ul li a:hover{
+	color:#000;
+}
+#logo{
+	float: left;
+}
+#logo h1{
+	margin-bottom: 0px;
+}
+#logo h2{
+	margin-top:0px;
+	color:#808080;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+#listaArtykulow article>a{
+	text-decoration: none;
+	display: block;
+}
+#listaArtykulow article p{
+	color:#808080;
+}
+#listaArtykulow{
+	width:68%;
+	padding-right: 2%;
+	display: table-cell;
+
+}
+#panelBoczny{
+	display: table-cell;
+	border-left: 1px solid #f2f2f2;
+	padding:0 3%;
+	width:25%;
+	vertical-align: top;
+}
+#panelBoczny h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin:50px 0 30px 0;
+	font-weight: normal;
+}
+.clear{
+	clear: both;
+	
+}
+#kontenerSrodkowy{
+	display: table-row;
+}
+article{
+	position: relative;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2f2f2;
+}
+article h1>a{
+	color:#808080;
+	text-decoration: none;
+	color:#000;
+
+}
+#listaArtykulow article:last-child{
+	border-bottom: 0;
+}
+article p, article h1, article h2, article h2, article ul{
+	max-width: 630px;
+}
+.metaIkonki{
+	float: left;
+	margin-left: 20px;
+	color:#808080;
+}
+.mataTrudnosc{
+	line-height: 40px;
+}
+.metaInformacje{
+	font-size: 0.9em;
+	margin:10px 0;
+}
+.metaIkonka{
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	border:1px solid #d6d6d6;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: .7em;
+}
+.metaIkonka span{
+	display: block;
+	text-align: center;
+	font-size: 1.4em;
+	margin-top:4px;
+}
+article header img{
+	display: block;
+	float: left;
+}
+
+#wyszukiwarka input{
+	background:#f5f2f2;
+	border:0;
+	padding:5px;
+	display: block;
+	width:100%;
+}
+#wyszukiwarka input:focus{
+	outline: none;
+	box-shadow: inset 0 0 2px 1px rgba(0,0,0,0.1);
+}
+.tytul_artykulu{
+	margin-top:10px;
+	font-size: 2.5em;
+}
+#najpopularniejszePrzepisy img{
+	display: block;
+	margin-bottom:10px;
+}
+#najpopularniejszePrzepisy{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	font-size: 1.2em;
+	color:#000;
+}
+#najpopularniejszePrzepisy li{
+	margin-bottom: 30px;
+}
+#najpopularniejszePrzepisy a{
+	text-decoration: none;
+	color:#000;
+}
+
+#stopka{
+	clear: both;
+	float: none;
+	width:1200px;
+
+	border-top: 1px solid #f2f2f2;
+	margin: 0 auto;
+	background: #f2f2f2;
+	padding-bottom:3%;
+	padding-top:15px;
+	font-size: .8em;
+
+}
+#stopka p{
+	margin:0;
+	text-align: center;
+}
+.nazwaKategorii{
+	text-transform: uppercase;
+}
+.nazwaKategorii:before{
+	content: '//';
+	color:#cccccc;
+	margin-right: 10px;
+	margin-left: 10px;
+}
