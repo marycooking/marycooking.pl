@@ -59,8 +59,8 @@
 				
 			</section>
 			<aside id="panelBoczny">
-				<form id="wyszukiwarka" action="/" method="get" name="s">
-					<input type="text" placeholder="wyszukaj">
+				<form id="wyszukiwarka" action="/" method="get">
+					<input type="text" placeholder="wyszukaj" name="s">
 				</form>
 				<h3>O blogu i o mnie</h3>
 				<p>Nazywam się Marysia i bardzo lubię jeść. Od kilku lat lubię też gotować. Okazało się, że inni lubią z kolei jeść to, co ugotowałam. I o tym jest ten blog.</p>
