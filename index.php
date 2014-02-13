@@ -67,30 +67,21 @@
 				<p>Piszę o Japonii - moim ulubionym kraju z najlepszym i najzdrowszym jedzeniem na świecie. O słodyczach, bo one wychodzą mi chyba najlepiej. O czasie, którego często brakuje w kuchni, ale dzięki temu wpadają do głowy świetne pomysły i niebanalne rozwiązania.</p>
 				<h3>Najpopularniejsze przepisy</h3>
 				<ul id="najpopularniejszePrzepisy">
-					<li>
-						<a href="#">
-							<img src="min_obrazek1.jpg">
-							Zupa z mięsem i zieleniną
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="min_obrazek2.jpg">
-							Japońskie kuleczki z ryżem i kapustą
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="min_obrazek1.jpg">
-							Zupa z mięsem i zieleniną
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<img src="min_obrazek2.jpg">
-							Japońskie kuleczki z ryżem i kapustą
-						</a>
-					</li>
+					<?php
+					$args = array( 'posts_per_page' => 5, 'meta_key' => 'post_views_count', 'orderby' => 'meta_value_num');
+					$myposts = get_posts( $args );
+					foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+						<li>
+							<a href="<?php the_permalink(); ?>">
+								<?php 
+									if ( has_post_thumbnail() ) { 
+										the_post_thumbnail( 'maly_waski_kwadrat' ); 
+									} 
+								?>
+								<?php the_title(); ?></a>
+						</li>
+					<?php endforeach; 
+					wp_reset_postdata();?>
 				</ul>
 			</aside>
 		
