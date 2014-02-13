@@ -42,6 +42,11 @@
 							
 						</header>
 						<?php the_content(); ?>
+						<?php if(is_single()){ ?>
+							<section>
+								<?php comments_template(); ?>
+							</section>
+						<?php } ?>
 				</article>
 				<?php endwhile; ?>
 				<div class="navigation">
