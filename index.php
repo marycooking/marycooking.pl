@@ -59,7 +59,7 @@
 				
 			</section>
 			<aside id="panelBoczny">
-				<form id="wyszukiwarka" action="/" method="get">
+				<form id="wyszukiwarka" action="/" method="get" name="s">
 					<input type="text" placeholder="wyszukaj">
 				</form>
 				<h3>O blogu i o mnie</h3>
