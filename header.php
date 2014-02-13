@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 	 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	 <link rel="Shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/bower_components/jquery/jquery.min.js"></script>
 	 <script type="text/javascript">
 	 	$(document).ready(function() {
