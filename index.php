@@ -14,7 +14,7 @@
 							<div class="metaIkonki">
 								<div class="mataCzas metaIkonka">
 									<?php $czas = get_post_custom_values('czas');
-									if $czas !== null{
+									if($czas != null){
 										echo $czas[0];
 									} ?>
 								</div>
