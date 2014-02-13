@@ -23,7 +23,7 @@
 								</div>
 							</div>
 							<div class="clear"></div>
-							<p class="metaInformacje">22 lutego 2014 <span class="nazwaKategorii">Mięso</span></p>
+							<p class="metaInformacje"><?php the_time('j F Y') ?> <span class="nazwaKategorii">Mięso</span></p>
 							<h1 class="tytul_artykulu"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 							
 						</header>
