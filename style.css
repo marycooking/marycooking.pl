@@ -210,3 +210,9 @@ article header img{
 	margin-right: 10px;
 	margin-left: 10px;
 }
+.alignleft{
+	float: left;
+}
+.alignright{
+	float: right;
+}
