@@ -8,6 +8,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 	 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/bower_components/jquery/jquery.min.js"></script>
+	 <script type="text/javascript">
+	 	$(document).ready(function() {
+	 		$('.mataKoszt').each(function(){
+	 			var zawartosc = $(this).text();
+	 			var podzielonaZawartosc = zawartosc.split(" ");
+	 			$(this).html('<span>'+podzielonaZawartosc[0]+'</span>'+podzielonaZawartosc[1]);
+	 		});
+	 	});
+	 </script>
 	<?php wp_head(); ?>
 </head>
 <body>
