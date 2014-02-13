@@ -10,7 +10,7 @@
 	 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/bower_components/jquery/jquery.min.js"></script>
 	 <script type="text/javascript">
 	 	$(document).ready(function() {
-	 		$('.mataKoszt, .metaCzas').each(function(){
+	 		$('.mataKoszt, .mataCzas').each(function(){
 	 			var zawartosc = $(this).text();
 	 			var podzielonaZawartosc = zawartosc.split(" ");
 	 			$(this).html('<span>'+podzielonaZawartosc[0]+'</span>'+podzielonaZawartosc[1]);
