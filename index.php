@@ -13,7 +13,10 @@
 							</a>
 							<div class="metaIkonki">
 								<div class="mataCzas metaIkonka">
-									<span>30</span> min
+									<?php $czas = get_post_custom_values('czas');
+									if $czas !== null{
+										echo $czas[0];
+									} ?>
 								</div>
 								<div class="mataTrudnosc metaIkonka">
 									łatwe
