@@ -50,12 +50,7 @@
 				</article>
 				<?php endwhile; ?>
 				<div class="navigation">
-				<div class="alignleft">
-				<?php posts_nav_link('','','&laquo; Poprzednie wpisy') ?>
-				</div>
-				<div class="alignright">
-				<?php posts_nav_link('','Następne wpisy &raquo;','') ?>
-				</div>
+					<p><?php posts_nav_link('','Następne wpisy &raquo;','&laquo; Poprzednie wpisy') ?></p>
 				</div>
 				<?php else : ?>
 				<h2 class="center">Nie znaleziono</h2>
