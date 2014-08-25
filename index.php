@@ -86,8 +86,8 @@
 					<?php endforeach; 
 					wp_reset_postdata();?>
 				</ul>
-				<a href="http://durszlak.pl/" title="Durszlak.pl - polskie blogi kulinarne" style="margin-top:20px">
-					<img src="http://durszlak.pl/images/buttons/120x90-white.png?IRMLNdTfYhzHjxPrI9FImQzz" alt="przepisy kulinarne" width="120" height="90" />
+				<a href="http://durszlak.pl/" title="Durszlak.pl - polskie blogi kulinarne">
+					<img src="http://durszlak.pl/images/buttons/120x90-white.png?8XaOeyVzsHklXvDIlYd9Kwzz" alt="przepisy kulinarne" width="120" height="90" />
 				</a>
 			</aside>
 		
