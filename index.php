@@ -89,6 +89,9 @@
 				<a href="http://durszlak.pl/" title="Durszlak.pl - polskie blogi kulinarne" style="margin-top: 30px; text-align:center; display:block">
 					<img src="http://durszlak.pl/images/buttons/120x90-white.png?8XaOeyVzsHklXvDIlYd9Kwzz" alt="przepisy kulinarne" width="120" height="90" />
 				</a>
+				<a href="http://zmiksowani.pl" title="Mikser Kulinarny - przepisy kulinarne i wyszukiwarka przepisów" target="_blank">
+					<img src="http://static.zmiksowani.pl/button/?src=banner-nowy-120x90-light.png&hash=6f6d7ea73f8b34354a3ecc69f872abfd" width="120" height="90" border="0" alt="Mikser Kulinarny - przepisy kulinarne i wyszukiwarka przepisów"/>
+				</a>
 			</aside>
 		
 <?php get_footer(); ?>
