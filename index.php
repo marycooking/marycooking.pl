@@ -71,6 +71,10 @@
 				<div style="margin: 10px 0">
 					<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMarycooking%2F505289669601424&amp;width=300&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=102993303143183" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:290px;" allowTransparency="true"></iframe>
 				</div>
+				<div style="margin: 10px 0">
+					<!-- www.intagme.com -->
+					<iframe src="http://www.intagme.com/in/?u=bWFyeWNvb2tpbmcucGx8c2x8MzAwfDJ8M3x8eWVzfDV8dW5kZWZpbmVkfHllcw==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:315px; height: 315px" ></iframe>
+				</div>
 				<h3>Najpopularniejsze przepisy</h3>
 				<ul id="najpopularniejszePrzepisy">
 					<?php
