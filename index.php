@@ -63,7 +63,7 @@
 					<input type="text" placeholder="wyszukaj" name="s">
 				</form>
 				<div style="margin: 10px 0;">
-					<img src="<?php bloginfo('template_directory'); ?>/blog_roku.png" alt="Biorę udział w konkursie na bloga roku" style="width:100%;">
+					<img src="<?php bloginfo('template_directory'); ?>/blog_roku_baner.png" alt="Biorę udział w konkursie na bloga roku" style="width:100%;">
 				</div>
 				<h3>O blogu i o mnie</h3>
 				<p>Nazywam się Marysia i bardzo lubię jeść. Od kilku lat lubię też gotować. Okazało się, że inni lubią z kolei jeść to, co ugotowałam. I o tym jest ten blog.</p>
