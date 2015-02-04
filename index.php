@@ -62,6 +62,9 @@
 				<form id="wyszukiwarka" action="/" method="get">
 					<input type="text" placeholder="wyszukaj" name="s">
 				</form>
+				<div style="margin: 10px 0;">
+					<img src="<?php bloginfo('template_directory'); ?>/blog_roku.png" alt="Biorę udział w konkursie na bloga roku" style="width:100%;">
+				</div>
 				<h3>O blogu i o mnie</h3>
 				<p>Nazywam się Marysia i bardzo lubię jeść. Od kilku lat lubię też gotować. Okazało się, że inni lubią z kolei jeść to, co ugotowałam. I o tym jest ten blog.</p>
 				<p>Piszę o Japonii - moim ulubionym kraju z najlepszym i najzdrowszym jedzeniem na świecie. O słodyczach, bo one wychodzą mi chyba najlepiej. O czasie, którego często brakuje w kuchni, ale dzięki temu wpadają do głowy świetne pomysły i niebanalne rozwiązania.</p>
