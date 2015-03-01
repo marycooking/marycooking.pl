@@ -96,6 +96,7 @@
 				<a href="http://zmiksowani.pl" title="Mikser Kulinarny - przepisy kulinarne i wyszukiwarka przepisów" target="_blank" style="margin-top: 30px; text-align:center; display:block">
 					<img src="http://static.zmiksowani.pl/button/?src=banner-nowy-120x90-light.png&hash=6f6d7ea73f8b34354a3ecc69f872abfd" width="120" height="90" border="0" alt="Mikser Kulinarny - przepisy kulinarne i wyszukiwarka przepisów"/>
 				</a>
+				<a href="http://targsmaku.pl" target="_blank" title="Targ Smaku" style="margin-top: 30px; text-align:center; display:block"><img src="http://targsmaku.pl/widget/small/style1/IJwkYXcHYVLTwEdOSQXAlCXaoSZv8JEc/banner.png" border="0" width="100" height="90"></a>
 			</aside>
 		
 <?php get_footer(); ?>
