@@ -3,6 +3,7 @@
 <head>
 	<title><?php wp_title(); ?></title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="p:domain_verify" content="ef69bf04944a673a02d0af10ae8aaa67"/>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/bower_components/normalize-css/normalize.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
