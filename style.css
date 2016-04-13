@@ -25,11 +25,6 @@ a {
 	border-bottom: 1px solid #f2f2f2;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
-	display: table-row;
-}
-
-.header_kontenerWewnetrzny {
-	display: table-cell;
 }
 
 h1, h2 {
@@ -121,6 +116,10 @@ nav ul li a:hover{
 
 #kontenerSrodkowy {
 	display: table-row;
+}
+
+#kontenerSrodkowy_wrapper {
+	display: table;
 }
 
 article {

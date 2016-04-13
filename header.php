@@ -35,4 +35,5 @@
 				<div class="clear"></div>
 			</div>
 		</header>
+		<div id="kontenerSrodkowy_wrapper">
 		<div id="kontenerSrodkowy">
