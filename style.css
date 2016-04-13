@@ -95,7 +95,7 @@ nav ul li a:hover{
 }
 .clear{
 	clear: both;
-	
+
 }
 #kontenerSrodkowy{
 	display: table-row;
@@ -205,7 +205,7 @@ article header img{
 	text-transform: uppercase;
 	text-decoration: none;
 	color:#808080;
-	
+
 }
 .metaInformacje a:before{
 	content: '//';
@@ -218,4 +218,10 @@ article header img{
 }
 .alignright{
 	float: right;
+}
+
+#mary_photo {
+	display: block;
+	width: 90%;
+	margin: 1em auto;
 }

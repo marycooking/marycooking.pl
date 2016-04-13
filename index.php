@@ -10,10 +10,10 @@
 					?>
 						<header>
 							<a href="<?php the_permalink(); ?>">
-								<?php 
-									if ( has_post_thumbnail() ) { 
-										the_post_thumbnail( 'duzy_waski_kwadrat' ); 
-									} 
+								<?php
+									if ( has_post_thumbnail() ) {
+										the_post_thumbnail( 'duzy_waski_kwadrat' );
+									}
 								?>
 							</a>
 							<div class="metaIkonki">
@@ -39,7 +39,7 @@
 							<div class="clear"></div>
 							<p class="metaInformacje"><?php the_time('j F Y') ?> <?php the_category(' ') ?></p>
 							<h1 class="tytul_artykulu"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-							
+
 						</header>
 						<?php the_content(); ?>
 						<?php if(is_single()){ ?>
@@ -56,13 +56,14 @@
 				<h2 class="center">Nie znaleziono</h2>
 				<p class="center"><?php _e("Niestety, nie znaleziono żądanych postów."); ?></p>
 				<?php endif; ?>
-				
+
 			</section>
 			<aside id="panelBoczny">
 				<form id="wyszukiwarka" action="/" method="get">
 					<input type="text" placeholder="wyszukaj" name="s">
 				</form>
 				<h3>O blogu i o mnie</h3>
+				<img src="<?php bloginfo('template_directory'); ?>/mary.jpg" id="mary_photo">
 				<p>Nazywam się Marysia i bardzo lubię jeść. Od kilku lat lubię też gotować. Okazało się, że inni lubią z kolei jeść to, co ugotowałam. I o tym jest ten blog.</p>
 				<p>Piszę o Japonii - moim ulubionym kraju z najlepszym i najzdrowszym jedzeniem na świecie. O słodyczach, bo one wychodzą mi chyba najlepiej. O czasie, którego często brakuje w kuchni, ale dzięki temu wpadają do głowy świetne pomysły i niebanalne rozwiązania.</p>
 				<div style="margin: 10px 0">
@@ -80,14 +81,14 @@
 					foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 						<li>
 							<a href="<?php the_permalink(); ?>">
-								<?php 
-									if ( has_post_thumbnail() ) { 
-										the_post_thumbnail( 'maly_waski_kwadrat' ); 
-									} 
+								<?php
+									if ( has_post_thumbnail() ) {
+										the_post_thumbnail( 'maly_waski_kwadrat' );
+									}
 								?>
 								<?php the_title(); ?></a>
 						</li>
-					<?php endforeach; 
+					<?php endforeach;
 					wp_reset_postdata();?>
 				</ul>
 				<a href="http://durszlak.pl/" title="Durszlak.pl - polskie blogi kulinarne" style="margin-top: 30px; text-align:center; display:block">
@@ -98,5 +99,5 @@
 				</a>
 				<a href="http://targsmaku.pl" target="_blank" title="Targ Smaku" style="margin-top: 30px; text-align:center; display:block"><img src="http://targsmaku.pl/widget/small/style1/IJwkYXcHYVLTwEdOSQXAlCXaoSZv8JEc/banner.png" border="0" width="100" height="90"></a>
 			</aside>
-		
+
 <?php get_footer(); ?>
