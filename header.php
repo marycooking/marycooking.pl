@@ -24,13 +24,15 @@
 <body>
 	<div id="kontener">
 		<header>
-			<div id="logo">
-				<h1><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/marycooking.png" alt="marycooking"></a></h1>
-				<h2>Japońska kuchnia na polskie możliwości (oraz inne pyszności)</h2>
+			<div class="header_kontenerWewnetrzny">
+				<div id="logo">
+					<h1><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/marycooking.png" alt="marycooking"></a></h1>
+					<h2>Japońska kuchnia na polskie możliwości (oraz inne pyszności)</h2>
+				</div>
+				<nav>
+					<?php wp_nav_menu( array('menu' => 'glowne' )); ?>
+				</nav>
+				<div class="clear"></div>
 			</div>
-			<nav>
-				<?php wp_nav_menu( array('menu' => 'glowne' )); ?>
-			</nav>
-			<div class="clear"></div>
 		</header>
 		<div id="kontenerSrodkowy">
