@@ -79,17 +79,22 @@ nav ul li a:hover{
 	font-weight: normal;
 }
 
-#listaArtykulow article > a{
+#listaArtykulow article > a {
 	text-decoration: none;
 	display: block;
 }
 
-#listaArtykulow article p{
+#listaArtykulow article p {
 	color:#808080;
 }
 
-#listaArtykulow{
-	width:68%;
+article img {
+	max-width: 100%;
+	height: auto;
+}
+
+#listaArtykulow {
+	width: 68%;
 	padding-right: 2%;
 	display: table-cell;
 }
