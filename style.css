@@ -99,6 +99,10 @@ article img {
 	display: table-cell;
 }
 
+.wp-caption {
+	max-width: 100%;
+}
+
 #panelBoczny {
 	display: table-cell;
 	border-left: 1px solid #f2f2f2;
